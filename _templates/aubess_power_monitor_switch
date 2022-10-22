@@ -2,6 +2,7 @@
 date_added: 2022-09-23
 title: Aubess Power Monitor Switch 16A
 model: 
+type: Module Switch
 image: /assets/device_images/aubess_power_monitor_switch.webp
 template9: '{"NAME":"Aubess with (BL0942)","GPIO":[0,3200,0,7520,0,0,0,0,0,0,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005004543425583.html
@@ -12,3 +13,5 @@ category: relay
 type: Relay Module
 standard: global
 ---
+
+The BL2028N can be replaced with an ESP8266EX, [ESP-02S](/ESP-02S) which is pin-compatible. It requires a custom setup
