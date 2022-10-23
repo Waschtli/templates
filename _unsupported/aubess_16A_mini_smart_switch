@@ -15,6 +15,6 @@ footprint: esp12
 The BL2028N can be replaced with an ESP8266EX, [ESP-02S](/ESP-02S) which is pin-compatible. It requires a custom setup, which is similar to 
 [Athom 3-Way Mini Relay Switch Module (RS01)](https://templates.blakadder.com/athom_RS01.html), but not identical:
 
-```json
-{"NAME":"Aubess-RS01","GPIO":[0,0,0,0,576,0,0,0,224,32,160,0,0,0],"FLAG":0,"BASE":18}
-```
+template9: '{"NAME":"Aubess-RS01","GPIO":[0,0,0,0,576,0,0,0,224,32,160,0,0,0],"FLAG":0,"BASE":18}`
+
+Pay Attention to the Power-Rating of the relay. Its specified 16A is for 100V only. For 240 it's just 10A.
